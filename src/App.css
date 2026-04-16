@@ -1695,6 +1695,14 @@
   .services-modern-grid {
     grid-template-columns: 1fr;
   }
+  .btn-white-premium {
+    padding: 14px 24px;
+    font-size: 0.95rem;
+    display: inline-block;
+  }
+  .cta-content h2 {
+    font-size: 1.8rem;
+  }
 }
 
 /* Slider */
