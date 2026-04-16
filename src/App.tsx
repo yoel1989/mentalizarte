@@ -44,7 +44,7 @@ function App() {
   }, [])
 
   return (
-    <Router>
+    <Router basename="/mentalizarte">
       <ScrollToTop />
       <div className="app">
         {/* Navigation */}
