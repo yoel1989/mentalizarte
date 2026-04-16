@@ -20,7 +20,7 @@ import Interests from './pages/Interests'
 import Contact from './pages/Contact'
 import Intranet from './pages/Intranet'
 
-import logoImg from './assets/1.webp'
+import logoImg from './assets/logo.webp'
 
 // Scroll to Top Component
 function ScrollToTop() {
