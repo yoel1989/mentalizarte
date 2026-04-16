@@ -1692,6 +1692,9 @@
   .about-grid {
     grid-template-columns: 1fr;
   }
+  .services-modern-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Slider */
