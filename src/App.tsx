@@ -20,6 +20,8 @@ import Interests from './pages/Interests'
 import Contact from './pages/Contact'
 import Intranet from './pages/Intranet'
 
+import logoImg from './assets/1.webp'
+
 // Scroll to Top Component
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -49,7 +51,7 @@ function App() {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
           <div className="container nav-content">
             <Link to="/" className="logo">
-              <img src="https://mentalizarteasesores.co/sitepad-data/uploads/2025/07/1-modified.png" alt="Mentalizarte Logo" className="logo-img" />
+              <img src={logoImg} alt="Mentalizarte Logo" className="logo-img" />
             </Link>
             
             <div className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
@@ -84,7 +86,7 @@ function App() {
           <div className="container footer-grid">
             <div className="footer-info">
               <div className="logo">
-                <img src="https://mentalizarteasesores.co/sitepad-data/uploads/2025/07/1-modified.png" alt="Mentalizarte Logo" className="logo-img footer-logo" />
+                <img src={logoImg} alt="Mentalizarte Logo" className="logo-img footer-logo" />
               </div>
               <p className="footer-tagline">Psicología y acompañamiento social online.</p>
             </div>
